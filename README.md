@@ -2,7 +2,7 @@
 
 _Search how people feel about your query._
 
-owner: [Alex Shukhman]
+owner: [Alex Shukhman](https://github.com/alexshukhman)
 
 ## Description
 
@@ -28,14 +28,14 @@ A web-scraper (using [Google Puppeteer](https://developers.google.com/web/tools/
 
 - A Unix-like operating system (or at least terminal) like MacOSX or Ubuntu
 - Node.js and matching NPM.js (ES2017+ -- Node8+)
-- Python3 and matching Pip ([I] use Anaconda3)
+- Python3 and matching Pip ([I](https://github.com/alexshukhman) use Anaconda3)
 - A valid IBM account with [Tone Analyzer](https://cloud.ibm.com/catalog/services/tone-analyzer)
 
 ## Additional Notes
 
 ### On Firebase
 
-While this project is set up as a Firebase project, [I]'ve included [a file](functions/modules) to allow you, dear user, to use it either from the [Python SDK](python/main.py) or from the terminal/bash script of your choosing. Usage from bash or other Unix-like terminals is as follows:
+While this project is set up as a Firebase project, [I've](https://github.com/alexshukhman) included [a file](functions/modules) to allow you, dear user, to use it either from the [Python SDK](python/main.py) or from the terminal/bash script of your choosing. Usage from bash or other Unix-like terminals is as follows:
 
 ```sh
 cd functions
@@ -56,7 +56,4 @@ If you would like to discuss collaboration, [email me!](https://email-alex.com) 
 
 ## Legal Note
 
-_[I] am not a lawyer_, but web scraping and web crawling (both of which are used in this repo) are legal _gray areas_. [I] don't intend on monitizing this platform or using it to steal or otherwise attain data that is 1) otherwise inaccessible by a typical user, 2) to be exchanged for material gain/sold. Please be responsible with this tool. [I] claim zero responsibility for what you as a consumer of this code or API do with the data. Just be nice! Thanks.
-
-[i]: (https://github.com/alexshukhman)
-[alex shukhman]: (https://github.com/alexshukhman)
+_[I](https://github.com/alexshukhman) am not a lawyer_, but web scraping and web crawling (both of which are used in this repo) are legal _gray areas_. [I](https://github.com/alexshukhman) don't intend on monitizing this platform or using it to steal or otherwise attain data that is 1) otherwise inaccessible by a typical user, 2) to be exchanged for material gain/sold. Please be responsible with this tool. [I](https://github.com/alexshukhman) claim zero responsibility for what you as a consumer of this code or API do with the data. Just be nice! Thanks.
