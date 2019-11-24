@@ -14,13 +14,15 @@ const validateS = (s: string | null): UserErrorReturn | false => {
 export const analyzeString = functions.https.onRequest(
   async (req: functions.Request, res: functions.Response) => {
     const s: string = req.query.s;
+    const url: string = req.query.url;
+    const apikey: string = req.query.apikey;
 
     const s_error = validateS(s);
 
     if (s_error) {
       respond(res, s_error);
     } else {
-      respond(res, await _analyzeString(s));
+      respond(res, await _analyzeString(s, apikey, url));
     }
   }
 );
