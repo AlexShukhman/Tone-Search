@@ -11,7 +11,7 @@ export interface SitesByRoot {
   [root: string]: string[];
 }
 
-// General
+// General -- mostly the return types of the functions
 export interface ErrorReturn {
   success: false;
   err: string;
