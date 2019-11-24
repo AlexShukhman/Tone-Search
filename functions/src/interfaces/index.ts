@@ -26,6 +26,6 @@ export interface SuccessReturn {
   success: true;
   res: {
     message: string;
-    body: any;
+    body: any; // <-- This is where your return value will be on success
   };
 }
