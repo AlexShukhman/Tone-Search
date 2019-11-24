@@ -1,5 +1,7 @@
 # Tone-Search
 
+[![Build Status](https://travis-ci.org/AlexShukhman/Tone-Search.svg?branch=master)](https://travis-ci.org/AlexShukhman/Tone-Search)
+
 _Search how people feel about your query._
 
 owner: [Alex Shukhman](https://github.com/alexshukhman)
