@@ -48,7 +48,7 @@ As you can see, the results are always in JSON format. See the [interfaces file]
 
 ### On Other Usage
 
-As a sole developer of this project, [I] can't promise that you won't find any bugs (and if you do, [please report!](https://github.com/AlexShukhman/Tone-Search/issues)), never mind compatability with other tools etc.
+As a sole developer of this project, [I](https://github.com/alexshukhman) can't promise that you won't find any bugs (and if you do, [please report!](https://github.com/AlexShukhman/Tone-Search/issues)), never mind compatability with other tools etc.
 
 To add functionality, either fork then PR or branch (use format `<git_username>/<function-description>`) then PR. You will likely be blocked otherwise.
 
