@@ -7,10 +7,11 @@
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "test": "npm run build # just build for now"
   },
   "engines": {
-    "node": "8"
+    "node": ">=8.9.0"
   },
   "main": "lib/index.js",
   "dependencies": {
