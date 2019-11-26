@@ -13,9 +13,9 @@ A web-scraper (using [Google Puppeteer](https://developers.google.com/web/tools/
 **Potential Uses:**
 
 - Preliminary product analysis
-- Social media injestion
+- Social media ingestion
 - "Expert" (_remember:_ garbage in, garbage out) opinion agglomeration and analysis
-- [Powerful cloud-based webscraping](#Legal-Note), capable of being run in any server (including Kubernetes, serverless solutions and others) -- _this requires some upgrades, but the bones are there_
+- [Powerful cloud-based web scraping](#Legal-Note), capable of being run in any server (including Kubernetes, serverless solutions and others) -- _this requires some upgrades, but the bones are there_
 
 ## Quickstart
 
@@ -50,7 +50,7 @@ As you can see, the results are always in JSON format. See the [interfaces file]
 
 ### On Other Usage
 
-As a sole developer of this project, [I](https://github.com/alexshukhman) can't promise that you won't find any bugs (and if you do, [please report!](https://github.com/AlexShukhman/Tone-Search/issues)), never mind compatability with other tools etc.
+As a sole developer of this project, [I](https://github.com/alexshukhman) can't promise that you won't find any bugs (and if you do, [please report!](https://github.com/AlexShukhman/Tone-Search/issues)), never mind compatibility with other tools etc.
 
 To add functionality, either fork then PR or branch (use format `<git_username>/<function-description>`) then PR. You will likely be blocked otherwise.
 
@@ -58,4 +58,6 @@ If you would like to discuss collaboration, [email me!](https://email-alex.com) 
 
 ## Legal Note
 
-_[I](https://github.com/alexshukhman) am not a lawyer_, but web scraping and web crawling (both of which are used in this repo) are legal _gray areas_. _This tool is not intended for commercial use._ [I](https://github.com/alexshukhman) don't intend on monitizing this platform or using it to steal or otherwise attain data that is 1) otherwise inaccessible by a typical user, 2) to be exchanged for material gain/sold. Please be responsible with this tool. [I](https://github.com/alexshukhman) claim zero responsibility for what you as a consumer of this code or API do with the data. Just be nice! Thanks.
+The legality web scraping and web crawling (both of which are used in this repo) varies around the world, and among various websites/platforms. Some websites and platforms may have terms of use forbidding data scraping. _This tool is not intended for commercial use._
+
+[I](https://github.com/alexshukhman) am not responsible for the content you access or collect. Before using this tool, please affirm that you are legally allowed to access/use any particular content. If you have any legal issues please contact the appropriate data owners or host sites. [I](https://github.com/alexshukhman) claim zero responsibility for what you as a user of this code or API do with the data, or which websites or platforms you access. Please be responsible with this tool. Thanks!
