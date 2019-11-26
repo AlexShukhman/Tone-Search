@@ -29,7 +29,7 @@ A web-scraper (using [Google Puppeteer](https://developers.google.com/web/tools/
 ## Requirements
 
 - A Unix-like operating system (or at least terminal) like MacOSX or Ubuntu
-- Node.js and matching NPM.js (ES2017+ -- Node8+)
+- Node.js and matching NPM.js (ES2017+ (ES8) -- Node7.6+)
 - Python3 and matching Pip ([I](https://github.com/alexshukhman) use Anaconda3)
 - A valid IBM account with [Tone Analyzer](https://cloud.ibm.com/catalog/services/tone-analyzer) with access to version `2017-09-21`
 
