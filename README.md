@@ -23,7 +23,7 @@ A web-scraper (using [Google Puppeteer](https://developers.google.com/web/tools/
 2. `cd <this repo>`
 3. `sudo chmod +x install.sh` -- _this makes it so that you can run the file_
 4. `./install.sh` -- _this runs the install script (see [requirements](#Requirements))_
-5. Verify that you are in the `python` directory
+5. `cd python`
 6. `python main.py` or `python3 main.py` (depending on the run command you use for Python3)
 
 ## Requirements

@@ -6,7 +6,7 @@ import { analyzeString as _analyzeString } from "./tone";
 const validateS = (s: string | null): UserErrorReturn | false => {
   if (!s) {
     // TODO: better validation
-    return userError("Missing query param `s");
+    return userError("Missing query param `s`");
   }
   return false;
 };
