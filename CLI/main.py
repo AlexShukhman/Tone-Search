@@ -1,5 +1,5 @@
 #!/user/bin/env python3
-'''
+"""
 
 Tone-Search CLI Main
 
@@ -23,21 +23,24 @@ Helpers         -- Where all the code should be
 
 Main            -- Main class and runner
 
-'''
+"""
 
 # --- Imports ---
 # Local
 from .utils.call_node import CallNode
 
 # Imported
-
+from os.path import abspath
 
 # --- Helpers ---
 
 
 # --- Main ---
-class Main:
+class CLI:
     def init(self):
         # Instantiate subprocess
-        self.callNode = CallNode('../functions')
-        
+        self.callNode = CallNode(abspath("../functions"))
+
+
+def main():
+    CLI()

@@ -1,12 +1,13 @@
-'''
+"""
 
 Class for calling Node from the terminal
 
-'''
+"""
 # --- Imports ---
 # Local
 
 # Imported
+from subprocess import call
 
 # --- Main ---
 class CallNode:
@@ -15,4 +16,5 @@ class CallNode:
         self.location = location
 
     def runCommand(self, command, *args):
-        return
+        _args = ", ".join(args)
+        command = f'node -e "require({self.location}/lib/modules).{command}({_args})"'
