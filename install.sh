@@ -22,3 +22,4 @@ $pipversion install -r requirements.txt
 echo "Installing node modules..."
 cd ../functions
 npm install
+npm run build
