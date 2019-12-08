@@ -9,12 +9,12 @@ cat requirements.txt
 echo "Is that okay? [Y/n]"
 read okay
 
-if [ "$okay" != "${okay#[Yy]}" ]
+if [ "$okay" != "${okay#[Nn]}" ]
 then
-    echo "Installing..."
-else
     echo "Exiting..."
     exit 0
+else 
+    echo "Installing..."
 fi
 
 $pipversion install -r requirements.txt
